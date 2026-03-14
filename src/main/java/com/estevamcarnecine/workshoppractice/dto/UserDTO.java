@@ -1,6 +1,7 @@
 package com.estevamcarnecine.workshoppractice.dto;
 
 import java.io.Serializable;
+
 import com.estevamcarnecine.workshoppractice.domain.User;
 
 public class UserDTO implements Serializable {
