@@ -23,7 +23,6 @@ public class UserService {
 
 	public User findById(String id) {
 		Optional<User> obj = repo.findById(id);
-		// Fixed the missing closing brace below
 		return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
 	}
 
@@ -37,9 +36,9 @@ public class UserService {
 	}
 	
 	public User update(User obj) {
-		User newObj = repo.findOne(obj.getId());
+		User newObj = findById(obj.getId());
 		updateData(newObj, obj);
-		return repo.save(newObj;)
+		return repo.save(newObj);
 	}
 	
 	private void updateData(User newObj, User obj) {
