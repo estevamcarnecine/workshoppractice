@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.config;
+package com.estevamcarnecine.socialnetwork.config;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -8,11 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.estevamcarnecine.workshoppractice.domain.Post;
-import com.estevamcarnecine.workshoppractice.domain.User;
-import com.estevamcarnecine.workshoppractice.dto.AuthorDTO;
-import com.estevamcarnecine.workshoppractice.repository.PostRepository;
-import com.estevamcarnecine.workshoppractice.repository.UserRepository;
+import com.estevamcarnecine.socialnetwork.domain.Post;
+import com.estevamcarnecine.socialnetwork.domain.User;
+import com.estevamcarnecine.socialnetwork.dto.AuthorDTO;
+import com.estevamcarnecine.socialnetwork.repository.PostRepository;
+import com.estevamcarnecine.socialnetwork.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {

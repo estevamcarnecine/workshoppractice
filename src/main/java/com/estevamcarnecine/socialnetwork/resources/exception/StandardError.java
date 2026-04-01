@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.resources.exception;
+package com.estevamcarnecine.socialnetwork.resources.exception;
 
 import java.io.Serializable;
 

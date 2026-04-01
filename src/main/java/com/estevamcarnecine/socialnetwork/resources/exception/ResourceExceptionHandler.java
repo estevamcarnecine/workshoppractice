@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.resources.exception;
+package com.estevamcarnecine.socialnetwork.resources.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.services.exception;
+package com.estevamcarnecine.socialnetwork.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

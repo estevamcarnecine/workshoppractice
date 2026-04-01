@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.services;
+package com.estevamcarnecine.socialnetwork.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.estevamcarnecine.workshoppractice.domain.User;
-import com.estevamcarnecine.workshoppractice.dto.UserDTO; // Added missing import
-import com.estevamcarnecine.workshoppractice.repository.UserRepository;
-import com.estevamcarnecine.workshoppractice.services.exception.ObjectNotFoundException; // Ensure this exists
+import com.estevamcarnecine.socialnetwork.domain.User;
+import com.estevamcarnecine.socialnetwork.dto.UserDTO; // Added missing import
+import com.estevamcarnecine.socialnetwork.repository.UserRepository;
+import com.estevamcarnecine.socialnetwork.services.exception.ObjectNotFoundException; // Ensure this exists
 
 @Service
 public class UserService {

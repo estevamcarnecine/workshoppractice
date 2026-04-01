@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.resources;
+package com.estevamcarnecine.socialnetwork.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod; // Importante para
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.estevamcarnecine.workshoppractice.domain.Post;
-import com.estevamcarnecine.workshoppractice.domain.User;
-import com.estevamcarnecine.workshoppractice.dto.UserDTO;
-import com.estevamcarnecine.workshoppractice.services.UserService;
+import com.estevamcarnecine.socialnetwork.domain.Post;
+import com.estevamcarnecine.socialnetwork.domain.User;
+import com.estevamcarnecine.socialnetwork.dto.UserDTO;
+import com.estevamcarnecine.socialnetwork.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")

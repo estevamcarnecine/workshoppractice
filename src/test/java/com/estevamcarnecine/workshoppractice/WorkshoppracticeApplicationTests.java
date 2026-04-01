@@ -1,10 +1,10 @@
-package com.estevamcarnecine.workshoppractice;
+package com.estevamcarnecine.socialnetwork;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorkshoppracticeApplicationTests {
+class socialnetworkApplicationTests {
 
 	@Test
 	void contextLoads() {

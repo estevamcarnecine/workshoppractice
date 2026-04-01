@@ -1,18 +1,18 @@
-package com.estevamcarnecine.workshoppractice;
+package com.estevamcarnecine.socialnetwork;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.estevamcarnecine.workshoppractice.domain.User;
-import com.estevamcarnecine.workshoppractice.repository.UserRepository;
+import com.estevamcarnecine.socialnetwork.domain.User;
+import com.estevamcarnecine.socialnetwork.repository.UserRepository;
 
 @SpringBootApplication
-public class WorkshoppracticeApplication {
+public class socialnetworkApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WorkshoppracticeApplication.class, args);
+		SpringApplication.run(socialnetworkApplication.class, args);
 	}
 
 	@Bean

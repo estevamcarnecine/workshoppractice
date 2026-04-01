@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.domain;
+package com.estevamcarnecine.socialnetwork.domain;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -7,7 +7,7 @@ import java.util.Objects;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.estevamcarnecine.workshoppractice.dto.AuthorDTO;
+import com.estevamcarnecine.socialnetwork.dto.AuthorDTO;
 
 @Document
 public class Post implements Serializable {

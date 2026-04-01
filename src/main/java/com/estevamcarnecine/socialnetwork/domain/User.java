@@ -1,4 +1,4 @@
-package com.estevamcarnecine.workshoppractice.domain;
+package com.estevamcarnecine.socialnetwork.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
